@@ -7,8 +7,7 @@ import {
 } from '@nestjs/common';
 import { AppService } from './app.service';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { NextJsWebpackConfig } from 'next/dist/server/config-shared';
-import { WebpConverterModule } from 'nestjs-webp-converter';
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
